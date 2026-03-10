@@ -1,0 +1,50 @@
+# Composer / PHP
+/vendor/
+composer.phar
+
+# Composer lock (optional for libraries; uncomment if you want to ignore it)
+# composer.lock
+
+# Environment files
+.env
+.env.*.local
+
+# PHPUnit
+.phpunit.result.cache
+phpunit.xml
+phpunit.xml.dist
+
+# Logs and caches
+*.log
+*.cache
+cache/
+tmp/
+*.tmp
+
+# Coverage reports
+coverage/
+coverage.xml
+
+# Build & distribution
+/build/
+/dist/
+
+# Node dependencies
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.idea/
+.vscode/
+*.swp
+*~
+*.sublime-workspace
+*.sublime-project
+
+# Misc
+/.phpstorm.meta.php
+/.sass-cache
+*.phar
