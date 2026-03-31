@@ -12,7 +12,6 @@ composer.phar
 # PHPUnit
 .phpunit.result.cache
 phpunit.xml
-phpunit.xml.dist
 
 # Logs and caches
 *.log
