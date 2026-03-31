@@ -9,7 +9,7 @@ class SimpleTest extends TestCase
         $this->assertTrue(true);
     }
     
-    #[Group('excluded')] //
+    #[Group('excluded')]
     public function testBasicGrouping(): void
     {
         sleep(10);
