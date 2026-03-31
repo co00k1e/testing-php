@@ -31,7 +31,7 @@ Learning PHPUnit for automated testing. How to run the examples and notes on com
 
 ### Basic code standards
 
-- Keep tests small and focused — one assertion intent per test when possible.
+- Keep tests small and focused (one assertion intent per test when possible).
 - `assertSame` for primitives to avoid type-coercion.
 - Use `setUp` to reduce duplication, but avoid hiding important setup in multiple layers.
 
