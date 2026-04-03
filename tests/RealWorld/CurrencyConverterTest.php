@@ -15,8 +15,8 @@ class CurrencyConverterTest extends TestCase
             ->with('GDP', 'EUR')
             ->willReturn(1.2);
 
-            $currencyConverter = new CurrencyConverter($mockRateService);
-            $result = $currencyConverter->convert(100, 'GDP', 'EUR');
-            $this->assertEquals(120, $result);
+        $currencyConverter = new CurrencyConverter($mockRateService);
+        $result = $currencyConverter->convert(100, 'GDP', 'EUR');
+        $this->assertEquals(120, $result);
     }
 }

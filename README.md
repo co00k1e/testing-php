@@ -55,6 +55,21 @@ protected function tearDown(): void
 
 - Add `@group name` to tests and run with `--group name` to run only that group, see `phpunit.xml.dist` excluding the group named excluded.
 
+### Mocking
+
+- **Definition:** A programmable **stand-in** for a real dependency.
+- **Behavior:** Returns exactly what you tell data/errors to isolate your code.
+
+## Use Cases
+- **External Issues:** Real service is slow, flaky, or unavailable.
+- **Simulation:** Testing edge cases (errors, timeouts, specific payloads).
+- **Efficiency:** When you need tests to be fast and deterministic.
+
+## Why Mock?
+- **Isolation:** Focuses testing on your logic, not external systems.
+- **Speed:** Skips heavy processing and network latency.
+- **Reliability:** Eliminates test flakiness caused by third-party outages.
+
 ### Tests total not matching
 
 - If PHPUnit cannot find your classes, ensure Composer autoload is configured and run `composer dump-autoload`.
