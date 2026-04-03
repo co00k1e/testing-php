@@ -60,12 +60,12 @@ protected function tearDown(): void
 - **Definition:** A programmable **stand-in** for a real dependency.
 - **Behavior:** Returns exactly what you tell data/errors to isolate your code.
 
-## Use Cases
+#### Use Cases
 - **External Issues:** Real service is slow, flaky, or unavailable.
 - **Simulation:** Testing edge cases (errors, timeouts, specific payloads).
 - **Efficiency:** When you need tests to be fast and deterministic.
 
-## Why Mock?
+#### Why Mock?
 - **Isolation:** Focuses testing on your logic, not external systems.
 - **Speed:** Skips heavy processing and network latency.
 - **Reliability:** Eliminates test flakiness caused by third-party outages.
